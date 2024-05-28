@@ -8,7 +8,7 @@ from dotenv import load_dotenv, find_dotenv
 # Load environment variables
 load_dotenv(find_dotenv())
 openai_api_key = os.getenv('OPENAI_API_KEY')
-openai_api_base = os.getenv('OPENAI_API_BASE', 'http://localhost:1234/v1')
+openai_api_base = os.getenv('OPENAI_API_BASE', 'http://172.126.123.244:1234/v1')
 
 if not openai_api_key:
     st.error("OPENAI_API_KEY environment variable not set.")
