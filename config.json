@@ -1,0 +1,15 @@
+{
+    "agents": [
+        {
+            "role": "sahiul",
+            "goal": "get appraisal",
+            "backstory": "you are an agent who needs to fetch the apple stock price",
+            "tasks": [
+                {
+                    "description": "",
+                    "subtasks": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+openai 
+python-dotenv 
+crewai 
+langchain 
+pandas 
+plotly
+protobuf
+streamlit
+graphviz
